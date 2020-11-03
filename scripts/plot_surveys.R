@@ -21,4 +21,4 @@ surveys_plot +
   geom_point(alpha = 0.1, aes(color = species_id))
 
 ggplot(data = surveys_complete, mapping = aes(x = species_id, y = weight)) +
-  geom_boxplot()
+  geom_boxplot(alpha = 0)
