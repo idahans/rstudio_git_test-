@@ -16,3 +16,6 @@ surveys_plot +
 
 surveys_plot +
   geom_point(alpha = 0.1, color = "blue")
+
+surveys_plot +
+  geom_point(alpha = 0.1, aes(color = species_id))
